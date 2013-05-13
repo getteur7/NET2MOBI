@@ -1,0 +1,113 @@
+/*
+ This css and associated images borrow heavily from the fantastic 
+ chosen select box plugin.
+ 
+ Copyright (c) 2011 Harvest http://getharvest.com
+
+ MIT License, https://github.com/harvesthq/chosen/blob/master/LICENSE.md
+*/
+
+/*.font-select {
+  font-size: 16px;
+  width: 210px;
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}*/
+
+
+
+.font-select > a { 
+  -moz-background-clip   : padding;
+  -webkit-background-clip: padding-box;
+  background-clip        : padding-box;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 0 0 8px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.font-select > a span {
+  margin-right: 26px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 1.8;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.font-select > a div {  
+position: absolute;
+right: 2px;
+top: 1px;
+display: block;
+}
+
+.font-select > a div b {
+background: url(../images/net2_icone.png) 0 -147px;
+display: block;
+cursor: pointer;
+height: 24px;
+right: 2px;
+width: 20px;
+}
+
+
+.font-select .fs-results {
+margin: 0 4px 4px 0;
+width: 200px;
+padding: 0 0 0 4px;
+
+}
+
+.font-select .fs-results li {
+  line-height: 80%;
+  padding: 7px 7px 8px;
+  margin: 0;
+  list-style: none;
+  font-size: 18px;
+}
+
+.font-select .fs-results li.active {
+    border-top: 1px solid #4EC9FA;
+    border-bottom: none;
+    font-weight: normal;
+    color: white;
+    text-shadow: 0px 1px #333333;
+    background: #22bbf9;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIyYmJmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxODk2ZjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #22bbf9 0%, #1896f5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#22bbf9), color-stop(100%,#1896f5));
+    background: -webkit-linear-gradient(top,  #22bbf9 0%,#1896f5 100%);
+    background: -o-linear-gradient(top,  #22bbf9 0%,#1896f5 100%);
+    background: -ms-linear-gradient(top,  #22bbf9 0%,#1896f5 100%);
+    background: linear-gradient(to bottom,  #22bbf9 0%,#1896f5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22bbf9', endColorstr='#1896f5',GradientType=0 );
+    cursor: pointer;
+}
+.font-select .fs-results li em {
+  background: #feffde;
+  font-style: normal;
+}
+
+.font-select .fs-results li.active em {
+  background: transparent;
+}
+
+.font-select-active > a div {
+  background: transparent;
+  border-left: none;
+}
+
+.font-select-active > a div b {
+  background-position: 0 -374px;
+}
