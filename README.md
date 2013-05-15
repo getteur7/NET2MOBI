@@ -16,7 +16,7 @@ execute the query.<br>
 A demo preview of the net2mobi CMS back-end is avalaible at www.net2mobi.org
 <br>
 <br>Current source doesn't include image manager feature as shown in the demo site. Codes will be made available as soon as
-we get the necessary Enterprise license of MCI Image manager. If you have your own MCI Image manager files, you can place the folder at http://yourdomain/NET2MOBI/tree/master/Net2mobi/script to enable the feature
+we get the necessary Enterprise license of MCImageManager. If you have your own MCImageManager files, you can place the folder at http://yourdomain/NET2MOBI/tree/master/Net2mobi/script to enable the feature
 <br>
 <br>For further information contact cms@net2mobi.net
 
