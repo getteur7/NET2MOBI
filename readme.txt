@@ -5,7 +5,7 @@ Installation:
   tables.You only need to copy and paste the content of that file into your PHPMyAdmin and 
   execute the query.
 
-Configuration:
+Configuration: &
 
 
 
