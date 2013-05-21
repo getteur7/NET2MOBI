@@ -2,12 +2,13 @@
 --
 -- Host: localhost    Database: net2mobi_cms
 -- ------------------------------------------------------
---
--- Table structure for table `net2_site`
---
 DROP database IF EXISTS `net2mobi_cms`;
 create database  net2mobi_cms;
 use net2mobi_cms;
+
+--
+-- Table structure for table `net2_site`
+--
 
 DROP TABLE IF EXISTS `net2_site`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
